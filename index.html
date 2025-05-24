@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Juice World</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="juice-wrapper oreo-bg" id="main-bg">
+    <div class="main" id="main">
+      <div class="left">
+        <div  class="logo">
+          <img class="logoo" src="./assets/image_19-removebg-preview.png" alt="">
+          <h1 class="heading" >JUICE WORLD</h1>
+        </div>
+        <h2 id="flavor">OREO MILK SHAKE</h2>
+        <p id="price">Rs 150</p>
+        <img src="./assets/image_20-removebg-preview.png" alt="Oreo" class="oreo-img" id="item-img">
+      </div>
+      <div class="right">
+        <img src="./assets/image_12-removebg-preview.png" alt="Bottle" class="bottle-img" id="bottle-img">
+      </div>
+    </div>
+
+    <div class="thumbnails" id="thumbnails">
+      <img src="./assets/image_12-removebg-preview.png" onclick="changeJuice('OREO MILK SHAKE', 'Rs 150', 'image_20-removebg-preview.png', 'image_12-removebg-preview.png', 'oreo-bg')">
+      <img src="./assets/image_13-removebg-preview.png" onclick="changeJuice('BLACK BERRY', 'Rs 200', 'image_21-removebg-preview.png', 'image_13-removebg-preview.png', 'blackberry-bg')">
+      <img src="./assets/image_14-removebg-preview.png" onclick="changeJuice('BLACK CURRANT', 'Rs 270', 'image_22-removebg-preview.png', 'image_14-removebg-preview.png', 'blackcurrant-bg')">
+      <img src="./assets/image_15-removebg-preview.png" onclick="changeJuice('STRAW BERRY', 'Rs 290', 'image_23-removebg-preview.png', 'image_15-removebg-preview.png', 'strawberry-bg')">
+    </div>
+  </div>
+
+<script src="script.js"></script>
+</body>
+</html>
